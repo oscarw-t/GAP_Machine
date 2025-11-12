@@ -21,7 +21,8 @@ task = Task.init(
     task_name="leaf_dr_training(3)",
     output_uri=True
 )
-task.set_repo(branch='oscar_dev')
+task.set_repo(repo="https://github.com/oscarw-t/GAP_Machine",
+              branch="main")
 
 
 
